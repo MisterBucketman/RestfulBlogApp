@@ -29,11 +29,11 @@ var blogSchema = new mongoose.Schema({
 
 var Blog = mongoose.model("Blog", blogSchema);
 
-// Blog.create({
-//     title: "Test Blog",
-//     image : "https://images.unsplash.com/photo-1570021974424-60e83dfee639?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-//     body: "WHat iS tHis"
-// });
+Blog.create({
+    title: "Test Blog",
+    image : "https://images.unsplash.com/photo-1570021974424-60e83dfee639?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+    body: "WHat iS tHis"
+});
 
 //RESTful ROUTES
 
